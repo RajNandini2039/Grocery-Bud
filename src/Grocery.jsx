@@ -85,7 +85,7 @@ const Grocery = () => {
           <input
             type="text"
             className="grocery"
-            placeholder="anything you want to eat"
+            placeholder="anything you want to eat..."
             value={item}
             onChange={(e) => setItem(e.target.value)}
           />
